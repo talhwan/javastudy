@@ -1,9 +1,9 @@
 package week5;
 import java.util.*;
 
-public class Main1 {
+public class Study1 {
     public static void main(String[] args) {
-        Main1 aStudy = new Main1();
+        Study1 aStudy = new Study1();
         //aStudy.p1();
 
         String[] params = {"a","b","c"};
