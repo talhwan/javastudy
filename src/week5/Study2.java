@@ -27,6 +27,18 @@ public class Study2 {
         System.out.println(aa.get("3"));
         aa.printMapHash();
 
+        MapHash2 a2 = new MapHash2();
+        a2.put("1", "11");
+        a2.put("2", "21");
+        a2.put("3", "31");
+        a2.printMapHash();
+        a2.remove("0");
+        a2.printMapHash();
+        a2.remove("2");
+        a2.printMapHash();
+        System.out.println(a2.get("3"));
+        a2.printMapHash();
+
 
     }
 }
